@@ -12,7 +12,7 @@
 
 ```bash
 docker build -t cook-in-home .
-docker run -p 5000:80 cook-in-home
+docker run -d -p 5000:80 cook-in-home
 ```
 
 如需下载 PDF 版本，可以在浏览器中访问 [/document.pdf](https://cook.aiursoft.cn/document.pdf)
@@ -21,7 +21,7 @@ docker run -p 5000:80 cook-in-home
 
 针对发现的问题，直接修改并提交 Pull request 即可。
 
-在写新菜谱时，请复制并修改已有的菜谱模板: [示例菜](https://github.com/xmg2024/cook-in-home/blob/master/dishes/template/%E7%A4%BA%E4%BE%8B%E8%8F%9C/%E7%A4%BA%E4%BE%8B%E8%8F%9C.md?plain=1)。
+在写新菜谱时，请复制并修改已有的菜谱模板: [示例菜](https://github.com/xmg2024/cook-in-home/blob/master/docs/dishes/template/%E7%A4%BA%E4%BE%8B%E8%8F%9C/%E7%A4%BA%E4%BE%8B%E8%8F%9C.md?plain=1)。
 
 ## 搭建环境
 
