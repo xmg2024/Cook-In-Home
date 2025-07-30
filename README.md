@@ -16,6 +16,7 @@ docker run -d -p 5000:80 cook-in-home
 ```
 
 在浏览器访问该服务：http://localhost:5000/
+
 如需下载 PDF 版本，可以在浏览器中访问 [/document.pdf](https://cook.aiursoft.cn/document.pdf)
 
 ## 如何贡献
